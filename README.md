@@ -15,12 +15,18 @@ This project is to create steering buttons for Wahoo RGT using an Arduino Pro Mi
 **Schematic:**
 
 Follow the schematic for the wiring connections. 
-! [Schematic] ()
+<img src="https://user-images.githubusercontent.com/126370788/221392092-5b1c18ff-61f6-4ccb-b126-18c01fb2226a.png" alt="Schematic" title="Schematic">
 
 
 
 
 **Other Notes:**
 - Sample picture: tactile switch hot glued to a scrap plastic from food packaging
-- Switch assembly is held onto the hood using kids hair elastic 
+- Switch assembly is held onto the hood using elastic 
 - Waterproofing the switch, you can use a small plastic bag or food wrap to seal it
+- Cheap alternative to waterproof the Arduino is to put it into a kids food container (easily found at the dollar store)
+
+**Example pictures**
+
+<img src="https://user-images.githubusercontent.com/126370788/221392142-773b0838-bffe-4697-9338-dc0e4f6b5d25.png" alt="Mounted on Hood" title="Mounted on Hood" height="500" width="500" >
+<img src="https://user-images.githubusercontent.com/126370788/221392171-1d6f0b53-b0fe-4620-9c53-d61f71be0e96.png" alt="Splash proof Package" title="Splash Proof Container"height="550" width="800" >
