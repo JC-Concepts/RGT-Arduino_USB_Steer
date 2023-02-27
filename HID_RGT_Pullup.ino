@@ -1,9 +1,10 @@
 /*
-RGT Steering Controller
-The Arduino will act as a USB keyboard and when you press the buttons it will send the 'A' or 'D' keyboard signals. 
+RGT Steering USB HID Controller
+The Arduino will act as a USB HID keyboard and when you press the buttons it will send the 'A' or 'D' keyboard signals. 
 
 *** PULL Up Version ***
 
+https://github.com/JC-Concepts/RGT-Arduino_USB_Steer
 
 BOM:
 - Arduino Pro Micro 
