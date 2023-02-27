@@ -1,4 +1,4 @@
-# RGT-Arduino_USB_Steer
+# RGT - Arduino USB Steering (PC solution)
 This project is to create steering buttons for Wahoo RGT using an Arduino Pro Micro (or Leonardo). The concept is to make the Arduino act as an plug & play HID USB keyboard and send the characters 'A' (left) and 'D' (right) commands.
 
 **Code Notes**
