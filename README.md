@@ -31,6 +31,13 @@ View the latest on the [Change Log](https://github.com/JC-Concepts/RGT-Arduino_U
 * **t**: Opens the Chat box
 
 
+# Like this Project? 
+You can buy me a gel, coffee, or inner tube
+
+
+[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RE2GQDK8CD2WW)
+
+
 ## Hardware Installation Example:
 - Sample picture: tactile switch hot glued to a scrap plastic from food packaging
 - Switch assembly is held onto the hood using an elastic 
@@ -42,8 +49,4 @@ View the latest on the [Change Log](https://github.com/JC-Concepts/RGT-Arduino_U
 <img src="https://user-images.githubusercontent.com/126370788/221392142-773b0838-bffe-4697-9338-dc0e4f6b5d25.png" alt="Mounted on Hood" title="Mounted on Hood" height="500" width="500" >
 <img src="https://user-images.githubusercontent.com/126370788/221392171-1d6f0b53-b0fe-4620-9c53-d61f71be0e96.png" alt="Splash proof Package" title="Splash Proof Container"height="473" width="800" >
 
-# Like this Project? 
-You can buy me a gel, coffee, or inner tube
 
-
-[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RE2GQDK8CD2WW)
