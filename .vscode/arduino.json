@@ -1,6 +1,0 @@
-{
-    "board": "arduino:avr:leonardo",
-    "programmer": "arduino:avrispmkii",
-    "sketch": "HID_RGT_Pullup.ino",
-    "port": "COM13"
-}
