@@ -6,7 +6,7 @@ The Arduino will act as a USB HID keyboard and when you press the buttons it wil
 
 https://github.com/JC-Concepts/RGT-Arduino_USB_Steer
 
-Version: 0.1.0
+Version: 0.1.1
 
 BOM:
 - Arduino Pro Micro
@@ -22,7 +22,7 @@ const int buttonRightPin = 7;
 
 // Time Intervals
 const unsigned long TIME_INTERVAL = 130;
-const unsigned long TIME_AUTOSTEER = 100000;        // 100s before it sends a command to wait up the steering
+const unsigned long TIME_AUTOSTEER = 60000;         // 60s before it sends a command to wait up the steering
 const unsigned long TIME_AUTOSTEER_ACTIVATE = 5000; // Press and hold for this time to activate or disable Auto Steer
 
 unsigned long previousMillis;
@@ -45,7 +45,6 @@ void AutoSteer_OFF()
         Keyboard.write('a');
         delay(50);
         Keyboard.write('d');
-        Keyboard.releaseAll();
 
         previousAUTOSteerMillis = millis();
     }
@@ -58,11 +57,12 @@ void AutoSteer_ActivateCount()
 {
     if ((millis() - previousSteerMillis) >= TIME_AUTOSTEER_ACTIVATE)
     {
-        if (AUTOSTEER)
+        if (AUTOSTEER && digitalRead(buttonLeftPin) != HIGH)
         {
             AUTOSTEER = false; // Turn Auto Steer & Collision Off
+            previousAUTOSteerMillis = millis();
         }
-        else
+        else if (!AUTOSTEER && digitalRead(buttonRightPin) != HIGH)
         {
             AUTOSTEER = true; // Turn Auto Steer & Collision On
         }
@@ -97,7 +97,7 @@ void loop()
                 previousSteerMillis = millis();
             }
 
-            AutoSteer_ActivateCount();
+            // AutoSteer_ActivateCount();
         }
         else if (digitalRead(buttonRightPin) != HIGH)
         {
@@ -110,9 +110,9 @@ void loop()
                 previousSteerMillis = millis();
             }
 
-            AutoSteer_ActivateCount();
+            // AutoSteer_ActivateCount();
         }
-
+        AutoSteer_ActivateCount();
         previousMillis = millis();
     }
 
