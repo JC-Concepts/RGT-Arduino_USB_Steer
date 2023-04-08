@@ -1,6 +1,8 @@
 # Wahoo RGT - Arduino USB Steering (PC solution)
 This project is to create steering buttons for Wahoo RGT using an Arduino Pro Micro (or Leonardo). The concept is to make the Arduino act as an plug & play HID USB keyboard and send the characters 'A' (left) and 'D' (right) commands.
 
+**v0.1.2** Added schematic for the accessory buttons, this is optional. The code will still work with the 0.1.1 schematic (no accessory buttons). The added buttons will allow you to wave, look-back, win, & lose function. The switch bank might be over complicated for a novice to electronics but this ensure the usage of minimal wires from the switch to the Arduino.  
+
 **v0.1.1** Added the ability to override the Auto Steer feature that comes in every 2 minutes if you do not steer. Ideal for Team Time Trial
 * To disable Auto Steer, press and hold the Left button for 5-10s (I would do a single press then hold for 10s to be on the safe side)
 * To re-enable Auto Steer, press and hold the Right button for 5-10s (I would do a single press then hold for 10s to be on the safe side)
@@ -18,21 +20,22 @@ View the latest on the [Change Log](https://github.com/JC-Concepts/RGT-Arduino_U
 * Switch qty: 2 (any contact normally open will work, I've used a 5mm x 5mm tactile switch (not waterproof))
 * Some wires
 * USB A to micro USB cable (if your Arduino did not come with it)
+* **Switch Bank**: 5 resistors at 10K Ohm, 5 momentary switch (could be same type as steering switch), and some time to build it
+* **LED Status**: 2 LED, 2 resistors at 464 Ohm
 
 
 ## Schematic:
 
- 
-<img src="https://user-images.githubusercontent.com/126370788/221392092-5b1c18ff-61f6-4ccb-b126-18c01fb2226a.png" alt="Schematic" title="Schematic">
+ **v0.1.1 - Base Circuit**
+<img src="https://user-images.githubusercontent.com/126370788/221392092-5b1c18ff-61f6-4ccb-b126-18c01fb2226a.png" alt="v0.1.1 Schematic" title="v0.1.1 Schematic">
 
+**v0.1.2 - Circuit to include the Accessory Switch (Optional)**
+<img src="https://user-images.githubusercontent.com/126370788/230745742-3a0490c7-8c62-4912-97dc-bf2cc0b4d514.png" alt="v0.1.2 Schematic" title="v0.1.2 Schematic">
 
-## Other Wahoo RGT Keyboard Command:
-* **p**: Push to Talk
-* **t**: Opens the Chat box
 
 
 # Like this Project? 
-You can buy me a gel, coffee, or inner tube
+You can buy me a gel, coffee, or inner tube. Your support helps me further develop on these types of projects. 
 
 
 [![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RE2GQDK8CD2WW)
