@@ -51,5 +51,7 @@ You can buy me a gel, coffee, or inner tube. Your support helps me further devel
 
 <img src="https://user-images.githubusercontent.com/126370788/221392142-773b0838-bffe-4697-9338-dc0e4f6b5d25.png" alt="Mounted on Hood" title="Mounted on Hood" height="500" width="500" >
 <img src="https://user-images.githubusercontent.com/126370788/221392171-1d6f0b53-b0fe-4620-9c53-d61f71be0e96.png" alt="Splash proof Package" title="Splash Proof Container"height="473" width="800" >
+<img src="https://user-images.githubusercontent.com/126370788/230746546-4c3767b5-e2f3-4451-b037-e17c8bdd3cf3.jpg" alt="Switch Bank (Top)" title="Top View of Button Bank"height="546" width="800" >
+<img src="https://user-images.githubusercontent.com/126370788/230746548-a7ea665a-f044-4a6a-b3c9-70a816a5bb84.jp" alt="Switch Bank (Bottom)" title="Back side of circuit board for button bank"height="533" width="800" >
 
 
